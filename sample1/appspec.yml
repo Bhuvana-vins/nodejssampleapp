@@ -1,0 +1,7 @@
+version: 0.0
+os: linux
+files:
+  - source: /package.json
+    destination: /var/www/html/
+  - source: package-lock.json
+    destination: /var/www/html/
